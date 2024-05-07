@@ -24,7 +24,10 @@
     <ClCompile Include="CallDLL_Link_Time.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CallStatic.cpp">
+    <ClCompile Include="CallStatic_C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStatic_D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +38,10 @@
     <ClInclude Include="CallDLL_Link_Time.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CallStatic.h">
+    <ClInclude Include="CallStatic_C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStatic_D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -10,7 +10,7 @@ extern "C"
 	_declspec( dllexport ) int ReturnInteger();
 	_declspec( dllexport ) void ReturnVoid()
 	{
-		std::cout << "ReturnVoid(): Reporting from inside the DLL (loaded at runtime).";
+		std::cout << "ReturnVoid(): Reporting from inside the DLL A (loaded at runtime).";
 	}
 
 	namespace DynamicLibrary

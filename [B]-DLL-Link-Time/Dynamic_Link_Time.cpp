@@ -2,28 +2,28 @@
 
 const char* Bar()
 {
-	return "Bar(): Reporting from inside the DLL (linked at link time).";
+	return "Bar(): Reporting from inside the DLL B (linked at link time).";
 }
 
 const char* Baz()
 {
-	return "Baz(): Reporting from inside the DLL (linked at link time).";
+	return "Baz(): Reporting from inside the DLL B (linked at link time).";
 }
 
 int ReturnInteger()
 {
-	return 39;
+	return 222;
 }
 
 void ReturnVoid()
 {
-	std::cout << "ReturnVoid(): Reporting from inside the DLL (linked at link time).";
+	std::cout << "ReturnVoid(): Reporting from inside the DLL B (linked at link time).";
 }
 
 namespace DynamicLibrary_LinkTime
 {
 	const char* Foo()
 	{
-		return "DynamicLibrary_LinkTime::Foo(): Reporting from inside the DLL (linked at link time).";
+		return "DynamicLibrary_LinkTime::Foo(): Reporting from inside the DLL B (linked at link time).";
 	}
 }

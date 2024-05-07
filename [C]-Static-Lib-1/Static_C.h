@@ -4,7 +4,7 @@
 
 /* Putting all functions in namespace to avoid "one or more multiply defined symbols found" linker error. */
 
-namespace StaticLibrary
+namespace StaticLibraryC
 {
 	const char* Bar();
 
@@ -12,7 +12,7 @@ namespace StaticLibrary
 	int ReturnInteger();
 	inline void ReturnVoid()
 	{
-		std::cout << "StaticLibrary::ReturnVoid(): Reporting from inside the static library.";
+		std::cout << "StaticLibraryC::ReturnVoid(): Reporting from inside the static library C.";
 	}
 
 	const char* Foo();

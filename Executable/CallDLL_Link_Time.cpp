@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int CallDynamicLibraryFunctions_LinkedAtLinkTime()
+int CallFunctionsFrom_DynamicLibrary_B()
 {
 	std::cout << "Calling DLL function \"Bar\" linked at link time:\n\t" << Bar() << "\n";
 	std::cout << "Calling DLL function \"Bar\" linked at link time:\n\t" << Bar() << "\n";

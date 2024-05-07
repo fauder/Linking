@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[A]-DLL-Run-Time", "[A]-DLL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[B]-DLL-Link-Time", "[B]-DLL-Link-Time\[B]-DLL-Link-Time.vcxproj", "{BFD774DE-AF00-436E-A45F-64B624D6CCE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[D]-Static-Lib-2", "[D]-Static-Lib-2\[D]-Static-Lib-2.vcxproj", "{9370224F-51DC-43E1-B951-3C0D6B73BDEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,10 @@ Global
 		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Debug|x64.Build.0 = Debug|x64
 		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Release|x64.ActiveCfg = Release|x64
 		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Release|x64.Build.0 = Release|x64
+		{9370224F-51DC-43E1-B951-3C0D6B73BDEA}.Debug|x64.ActiveCfg = Debug|x64
+		{9370224F-51DC-43E1-B951-3C0D6B73BDEA}.Debug|x64.Build.0 = Debug|x64
+		{9370224F-51DC-43E1-B951-3C0D6B73BDEA}.Release|x64.ActiveCfg = Release|x64
+		{9370224F-51DC-43E1-B951-3C0D6B73BDEA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

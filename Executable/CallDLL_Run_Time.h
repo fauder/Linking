@@ -49,4 +49,4 @@ void CallFunctionOrPrintErrorMessage( const HMODULE dll_module_handle, int ordin
 		std::cerr << "Error: Could not get function pointer for function with ordinal number " << ordinal_number << " from DLL file.\n";
 };
 
-int LoadAndCallDynamicLibraryFunctions_AtRunTime();
+int LoadAndCallFunctionsFrom_DynamicLibraryA();

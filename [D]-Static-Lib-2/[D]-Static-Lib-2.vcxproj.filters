@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Static_C.h">
+    <ClInclude Include="Static_D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Static_C.cpp">
+    <ClCompile Include="Static_D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

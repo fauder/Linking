@@ -1,6 +1,6 @@
 #include "CallDLL_Run_Time.h"
 
-int LoadAndCallDynamicLibraryFunctions_AtRunTime()
+int LoadAndCallFunctionsFrom_DynamicLibraryA()
 {
 #ifdef _DEBUG
 	auto handle_to_library = LoadLibraryA( R"(..\x64\Debug\[A]-DLL-Run-Time.dll)" );
