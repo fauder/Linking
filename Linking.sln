@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Executable", "Executable\Executable.vcxproj", "{FEA3F273-2B42-4E79-8121-5EFFCB94FF85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[C]-Static-Lib-1", "[C]-Static-Lib-1\[C]-Static-Lib-1.vcxproj", "{CC5C7DC0-3F40-4975-9F90-85CB3DC99D89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[A]-DLL-Run-Time", "[A]-DLL-Run-Time\[A]-DLL-Run-Time.vcxproj", "{CAA94A0A-CED8-487F-8D34-8F2E00731992}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[B]-DLL-Link-Time", "[B]-DLL-Link-Time\[B]-DLL-Link-Time.vcxproj", "{BFD774DE-AF00-436E-A45F-64B624D6CCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA3F273-2B42-4E79-8121-5EFFCB94FF85}.Debug|x64.ActiveCfg = Debug|x64
+		{FEA3F273-2B42-4E79-8121-5EFFCB94FF85}.Debug|x64.Build.0 = Debug|x64
+		{FEA3F273-2B42-4E79-8121-5EFFCB94FF85}.Release|x64.ActiveCfg = Release|x64
+		{FEA3F273-2B42-4E79-8121-5EFFCB94FF85}.Release|x64.Build.0 = Release|x64
+		{CC5C7DC0-3F40-4975-9F90-85CB3DC99D89}.Debug|x64.ActiveCfg = Debug|x64
+		{CC5C7DC0-3F40-4975-9F90-85CB3DC99D89}.Debug|x64.Build.0 = Debug|x64
+		{CC5C7DC0-3F40-4975-9F90-85CB3DC99D89}.Release|x64.ActiveCfg = Release|x64
+		{CC5C7DC0-3F40-4975-9F90-85CB3DC99D89}.Release|x64.Build.0 = Release|x64
+		{CAA94A0A-CED8-487F-8D34-8F2E00731992}.Debug|x64.ActiveCfg = Debug|x64
+		{CAA94A0A-CED8-487F-8D34-8F2E00731992}.Debug|x64.Build.0 = Debug|x64
+		{CAA94A0A-CED8-487F-8D34-8F2E00731992}.Release|x64.ActiveCfg = Release|x64
+		{CAA94A0A-CED8-487F-8D34-8F2E00731992}.Release|x64.Build.0 = Release|x64
+		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Debug|x64.ActiveCfg = Debug|x64
+		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Debug|x64.Build.0 = Debug|x64
+		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Release|x64.ActiveCfg = Release|x64
+		{BFD774DE-AF00-436E-A45F-64B624D6CCE4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC0B39A-1852-4A65-BB0F-53D552F93E61}
+	EndGlobalSection
+EndGlobal
